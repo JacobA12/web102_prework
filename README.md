@@ -23,7 +23,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-![]([https://github.com/Your_Repository_Name/Your_GIF_Name.gif](https://github.com/JacobA12/web102_prework/blob/main/assets/forSubmission.gif))
+![]([https://github.com/JacobA12/web102_prework/blob/main/assets/forSubmission.gif])
 
 GIF created with ...  
 [LiceCap](https://www.cockos.com/licecap/) for Windows
