@@ -23,9 +23,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='[https://imgur.com/a/buVKCt4](https://imgur.com/a/prework-intermediate-web-development-web102-submission-jacob-adams-buVKCt4)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace this with whatever GIF tool you used! -->
+![]([https://github.com/Your_Repository_Name/Your_GIF_Name.gif](https://github.com/JacobA12/web102_prework/blob/main/assets/forSubmission.gif))
 
 GIF created with ...  
 [LiceCap](https://www.cockos.com/licecap/) for Windows
