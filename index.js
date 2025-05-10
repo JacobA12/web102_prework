@@ -183,17 +183,18 @@ secondGameContainer.appendChild(runnerUp);
 /************************************************************************************
  * Optional Challenge: Search Bar
  */
-// grab the search input element
+// grab the input search element
 const searchBar = document.getElementById("search-bar");
 
+//when the user inputs into the element filter the games using that input
 searchBar.addEventListener("input", (event) => {
   const searchTerm = event.target.value.toLowerCase();
-
-  // filter games by name
+  // uses the filter function to find appropriate game title. Ignore the case.
   const filteredGames = GAMES_JSON.filter((game) =>
     game.name.toLowerCase().includes(searchTerm)
   );
 
+  //makes sure only the appropriate games are displayed
   deleteChildElements(gamesContainer);
   addGamesToPage(filteredGames);
 });
