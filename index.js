@@ -179,3 +179,21 @@ firstGameContainer.appendChild(topPledge);
 let runnerUp = document.createElement("p");
 runnerUp.innerText = second.name;
 secondGameContainer.appendChild(runnerUp);
+
+/************************************************************************************
+ * Optional Challenge: Search Bar
+ */
+// grab the search input element
+const searchBar = document.getElementById("search-bar");
+
+searchBar.addEventListener("input", (event) => {
+  const searchTerm = event.target.value.toLowerCase();
+
+  // filter games by name
+  const filteredGames = GAMES_JSON.filter((game) =>
+    game.name.toLowerCase().includes(searchTerm)
+  );
+
+  deleteChildElements(gamesContainer);
+  addGamesToPage(filteredGames);
+});
